@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAT Process Guide</title>
+  </head>
+  <body>
+    <div class="Header">
+      <h1>UAT Process Guide</h1>
+      <!--Centre Alligned-->
+    </div>
+
+    <br /><br /><br /><br /><br />
+
+    <div class="options">
+      <label for="Platform">Platform: </label>
+      <select name="platform" id="platform" required>
+        <option value="CP4">CP4</option>
+        <option value="SUL-Synapse">SUL-Synapse</option>
+        <option value="Synapse-MyTrials">Synapse-MyTrials</option>
+      </select>
+
+      <br /><br /><br />
+
+      <label for="Study Type">Study Type: </label>
+      <select name="Study_Type" id="Study_Type" required>
+        <option value="In_House">In House</option>
+        <option value="CRS">CRS</option>
+      </select>
+
+      <br /><br /><br />
+
+      <label for="Client">Client: </label>
+      <select name="Client" id="Client" required>
+        <option value="Astrazeneca">Astrazeneca</option>
+        <option value="UCB">UCB</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <br /><br /><br />
+
+      <label for="Task">Task: </label>
+      <select name="Task" id="Task" required>
+        <option value="uat_setup">UAT Setup</option>
+        <option value="uat_script_writing">UAT Script Writing</option>
+        <option value="uat_execution">UAT Execution</option>
+        <option value="uat_full_service">UAT Full Service</option>
+      </select>
+    </div>
+
+    <br /><br /><br />
+
+    <button>Load</button>
+    <!--Button link to different page-->
+
+    <link rel="stylesheet" href="style.css" />
+  </body>
+</html>
